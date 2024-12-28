@@ -58,3 +58,32 @@ input {
         font-size: 1rem;
     }
 }
+
+@media (max-width: 768px) {
+    .digit {
+      font-size: 10vw;
+    }
+
+    .text {
+      font-size: 4vw;
+    }
+
+    .btn {
+      font-size: 14px;
+      padding: 8px 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .btnall {
+      flex-direction: column;
+    }
+
+    .digit {
+      font-size: 12vw;
+    }
+
+    .text {
+      font-size: 5vw;
+    }
+}
